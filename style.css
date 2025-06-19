@@ -1,6 +1,8 @@
 *,
 *:before,
 *:after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,7 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .header {
@@ -58,16 +60,48 @@ a {
     display: flex;
 }
 
+.info {
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.container {
+    gap: 18px;
+    padding: 30px;
+}
+
 .one,
 .two,
 .three,
 .four {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
 }
 
 .info img {
     border-radius: 20px;
     border-style: solid;
     border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+    align-items: center;
 }
