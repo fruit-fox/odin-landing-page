@@ -91,8 +91,8 @@ a {
 }
 
 .intro img {
-    width: 400px;
-    height: 200px;
+    width: 425px;
+    height: 240px;
     object-fit: cover;
     object-position: 20% 43%;
     flex-shrink: 0;
@@ -148,21 +148,26 @@ a {
 .testimonial {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
-    gap: 18px;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+
+.testimonial .container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: light italic;
     color: #1f2937;
+    max-width: 580px;
 }
 
 .quotee {
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     justify-content: flex-end;
 }
