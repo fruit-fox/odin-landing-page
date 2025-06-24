@@ -13,6 +13,8 @@ body {
     justify-content: space-between;
 }
 
+/* Header section below */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -34,12 +36,45 @@ body {
 .intro {
     display: flex;
     justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.navbar {
+    padding-top: 16px;
+}
+
+.intro {
+    padding: 120px 0px;
+    gap: 60px;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.intro button {
+    background-color: #3882f6;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 18px;
     margin: 0px;
     padding: 0px;
 }
@@ -55,6 +90,16 @@ a {
     text-decoration: none;
 }
 
+.intro img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 43%;
+    flex-shrink: 0;
+}
+
+/* Info section below */
+
 .info,
 .container {
     display: flex;
@@ -63,7 +108,13 @@ a {
 .info {
     flex-direction: column;
     align-items: center;
-    padding: 48px;
+    padding: 60px;
+}
+
+.header2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .container {
@@ -92,16 +143,29 @@ a {
     object-position: center;
 }
 
+/* Testimonial section below */
+
 .testimonial {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 18px;
+    justify-content: center;
+    text-align: center;
 }
 
 .quote {
     font-size: 36px;
     font-weight: light italic;
     color: #1f2937;
-    align-items: center;
 }
+
+.quotee {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+/* CTA section below */
+
