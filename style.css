@@ -225,4 +225,11 @@ a {
 
 /* Footer below */
 
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 36px;
+}
+
 
